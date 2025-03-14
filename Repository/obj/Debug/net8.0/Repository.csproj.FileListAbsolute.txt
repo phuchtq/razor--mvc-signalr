@@ -1,0 +1,14 @@
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\bin\Debug\net8.0\Repository.dll
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\bin\Debug\net8.0\Repository.pdb
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.dll
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.pdb
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\Repository\obj\Debug\net8.0\ref\Repository.dll

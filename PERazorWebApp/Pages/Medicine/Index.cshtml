@@ -1,0 +1,129 @@
+﻿@page
+@model PERazorWebApp.Pages.Medicine.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<form method="get">
+    <div class="row align-items-end">
+        <div class="col-md-4">
+            <label>Active Ingredients</label>
+            <input type="text" name="activeIngredients" class="form-control" value="@Model.ActiveIngredients"/>
+        </div>
+        <div class="col-md-4">
+            <label>Warnings and Precautions</label>
+            <input type="text" name="warningsAndPrecautions" class="form-control" value="@Model.WarningsAndPrecautions"/>
+        </div>
+        <div class="col-md-3">
+            <label>Expiration Date</label>
+            <input type="text" name="expirationDate" class="form-control" value="@Model.ExpirationDate"/>
+        </div>
+        <div class="form-group col-md-1">
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </div>
+@* </form> *@
+<hr/>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].MedicineName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].ActiveIngredients)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].ExpirationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].DosageForm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].WarningsAndPrecautions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicineInformation[0].Manufacturer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="bodyId">
+@foreach (var item in Model.MedicineInformation) {
+        <tr id="@item.MedicineID">
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicineName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActiveIngredients)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExpirationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DosageForm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WarningsAndPrecautions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Manufacturer.ManufacturerID)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.MedicineID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.MedicineID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.MedicineID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@* <form method="get"> *@
+    <ul class="pagination">
+        @if (Model.PageNumber > 1)
+        {
+            <li class="page-item">
+                <button type="submit" class="page-link" onchange="this.form.submit()" value="1" name="selectedPage">First</button>
+                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="1">First</a> *@
+            </li>
+            <li class="page-item">
+                <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber - 1)" name="selectedPage">Previous</button>
+                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@(Model.PageNumber - 1)">Previous</a> *@
+            </li>
+        }
+
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                <button type="submit" class="page-link" onchange="this.form.submit()" value="@i" name="selectedPage">@i</button>
+                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@i">@i</a> *@
+            </li>
+        }
+
+        @if (Model.PageNumber < Model.TotalPages)
+        {
+            <li class="page-item">
+                <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber + 1)" name="selectedPage">Next</button>
+                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@(Model.PageNumber + 1)">Next</a> *@
+            </li>
+            <li class="page-item">
+                <button type="submit" class="page-link" onchange="this.form.submit()" value="@Model.TotalPages" name="selectedPage">Last</button>
+                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@Model.TotalPages">Last</a> *@
+            </li>
+        }
+    </ul>
+</form>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/client.js"></script>

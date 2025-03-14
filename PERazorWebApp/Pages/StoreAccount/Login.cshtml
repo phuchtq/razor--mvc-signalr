@@ -1,0 +1,57 @@
+﻿@page
+@model PERazorWebApp.Pages.StoreAccount.LoginModel
+@{
+	Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zHomepage.RazorWebApp</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="row text-center">
+                <h1 class="display-4">Login</h1>
+            </div>
+            @if (!string.IsNullOrEmpty(TempData["ErrMsg"]?.ToString()))
+            {
+                <div class="alert alert-danger">
+                    @TempData["ErrMsg"]
+                </div>
+            }
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Request.Email" class="control-label"></label>
+                            <input asp-for="Request.Email" class="form-control" />
+                            <span asp-validation-for="Request.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Request.Password" class="control-label"></label>
+                            <input type="password" asp-for="Request.Password" class="form-control" />
+                            <span asp-validation-for="Request.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Login" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

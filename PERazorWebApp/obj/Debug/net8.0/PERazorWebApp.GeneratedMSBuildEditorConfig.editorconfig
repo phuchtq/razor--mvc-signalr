@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PERazorWebApp
+build_property.RootNamespace = PERazorWebApp
+build_property.ProjectDir = D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Medicine/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNpbmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Medicine/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNpbmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Medicine/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNpbmVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Medicine/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNpbmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Medicine/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNpbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/StoreAccount/Forbidden.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVBY2NvdW50XEZvcmJpZGRlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/StoreAccount/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVBY2NvdW50XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/StoreAccount/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RvcmVBY2NvdW50XExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp_Projects/PRN222/SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ/PERazorWebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ixly9lgc9l
