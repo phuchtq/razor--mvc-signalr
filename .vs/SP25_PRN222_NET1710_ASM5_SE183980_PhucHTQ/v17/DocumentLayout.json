@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\pages\\medicine\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|d:\\csharp_projects\\prn222\\sp25_prn222_net1710_asm5_se183980_phuchtq\\perazorwebapp\\pages\\medicine\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\perazorwebapp\\pages\\medicine\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\pages\\medicine\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|d:\\csharp_projects\\prn222\\sp25_prn222_net1710_asm5_se183980_phuchtq\\perazorwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|d:\\csharp_projects\\prn222\\sp25_prn222_net1710_asm5_se183980_phuchtq\\perazorwebapp\\pages\\storeaccount\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\pages\\storeaccount\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|d:\\csharp_projects\\prn222\\sp25_prn222_net1710_asm5_se183980_phuchtq\\perazorwebapp\\pages\\storeaccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\pages\\storeaccount\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\perazorwebapp\\wwwroot\\js\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98CEE922-3EBD-40EB-B801-F82DA0FC784D}|PERazorWebApp\\PERazorWebApp.csproj|solutionrelative:perazorwebapp\\wwwroot\\js\\client.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client.js",
+              "DocumentMoniker": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\wwwroot\\js\\client.js",
+              "RelativeDocumentMoniker": "PERazorWebApp\\wwwroot\\js\\client.js",
+              "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\wwwroot\\js\\client.js",
+              "RelativeToolTip": "PERazorWebApp\\wwwroot\\js\\client.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-14T16:31:52.256Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +44,7 @@
               "RelativeDocumentMoniker": "PERazorWebApp\\Pages\\Medicine\\Index.cshtml.cs",
               "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\Medicine\\Index.cshtml.cs",
               "RelativeToolTip": "PERazorWebApp\\Pages\\Medicine\\Index.cshtml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAmwEkAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T15:35:38.791Z",
               "EditorCaption": ""
@@ -53,48 +57,9 @@
               "RelativeDocumentMoniker": "PERazorWebApp\\Pages\\Medicine\\Index.cshtml",
               "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\Medicine\\Index.cshtml",
               "RelativeToolTip": "PERazorWebApp\\Pages\\Medicine\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-13T15:35:22.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "PERazorWebApp\\Program.cs",
-              "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Program.cs",
-              "RelativeToolTip": "PERazorWebApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T15:15:19.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml.cs",
-              "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml.cs",
-              "RelativeToolTip": "PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAAEkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:38:27.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml",
-              "RelativeDocumentMoniker": "PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml",
-              "ToolTip": "D:\\CSharp_Projects\\PRN222\\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\\PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml",
-              "RelativeToolTip": "PERazorWebApp\\Pages\\StoreAccount\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T14:38:04.349Z",
               "EditorCaption": ""
             }
           ]

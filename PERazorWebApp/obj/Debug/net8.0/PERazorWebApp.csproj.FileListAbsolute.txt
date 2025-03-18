@@ -263,3 +263,4 @@ D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebAp
 D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp\obj\Debug\net8.0\PERazorWebApp.pdb
 D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp\obj\Debug\net8.0\PERazorWebApp.genruntimeconfig.cache
 D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp\obj\Debug\net8.0\ref\PERazorWebApp.dll
+D:\CSharp_Projects\PRN222\SP25_PRN222_NET1710_ASM5_SE183980_PhucHTQ\PERazorWebApp\obj\Debug\net8.0\PERazorWebApp.sourcelink.json

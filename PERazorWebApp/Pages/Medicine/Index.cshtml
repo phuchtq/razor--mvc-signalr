@@ -14,6 +14,7 @@
     <a asp-page="Create">Create New</a>
 </p>
 <form method="get">
+    <input type="number" name="totalPages" value="@Model.TotalPages" hidden/>
     <div class="row align-items-end">
         <div class="col-md-4">
             <label>Active Ingredients</label>
@@ -91,17 +92,19 @@
 
 @* <form method="get"> *@
     <ul class="pagination">
-        @if (Model.PageNumber > 1)
+        @* @if (Model.PageNumber > 1)
         {
             <li class="page-item">
                 <button type="submit" class="page-link" onchange="this.form.submit()" value="1" name="selectedPage">First</button>
-                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="1">First</a> *@
             </li>
             <li class="page-item">
                 <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber - 1)" name="selectedPage">Previous</button>
-                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@(Model.PageNumber - 1)">Previous</a> *@
             </li>
-        }
+        } *@
+
+        <li class="page-item">
+            <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber - 1)" name="selectedPage"><</button>
+        </li>
 
         @for (int i = 1; i <= Model.TotalPages; i++)
         {
@@ -111,17 +114,20 @@
             </li>
         }
 
-        @if (Model.PageNumber < Model.TotalPages)
+        @* @if (Model.PageNumber < Model.TotalPages)
         {
             <li class="page-item">
                 <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber + 1)" name="selectedPage">Next</button>
-                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@(Model.PageNumber + 1)">Next</a> *@
             </li>
             <li class="page-item">
                 <button type="submit" class="page-link" onchange="this.form.submit()" value="@Model.TotalPages" name="selectedPage">Last</button>
-                @* <a class="page-link" asp-page="./Index" asp-route-selectedPage="@Model.TotalPages">Last</a> *@
             </li>
-        }
+        } *@
+
+        <li class="page-item">
+            <button type="submit" class="page-link" onchange="this.form.submit()" value="@(Model.PageNumber + 1)" name="selectedPage">></button>
+        </li>
+
     </ul>
 </form>
 

@@ -39,11 +39,22 @@ namespace PERazorWebApp.Pages.Medicine
         public string? WarningsAndPrecautions { get; set; }
         public string? ExpirationDate { get; set; }
 
-        public async Task OnGetAsync(int? selectedPage, string? activeIngredients, string? warningsAndPrecautions, string? expirationDate)
+        public async Task OnGetAsync(int? selectedPage, string? activeIngredients, string? warningsAndPrecautions, string? expirationDate, int? totalPages)
         {
             if (selectedPage != null)
             {
-                PageNumber = selectedPage.Value;
+                if (selectedPage < 1)
+                {
+                    PageNumber = 1;
+                } 
+                else if (selectedPage > totalPages)
+                {
+                    PageNumber = totalPages.Value;
+                } 
+                else
+                {
+                    PageNumber = selectedPage.Value;
+                }
             }
 
             if (!activeIngredients.IsNullOrEmpty() || !warningsAndPrecautions.IsNullOrEmpty() || !expirationDate.IsNullOrEmpty())
